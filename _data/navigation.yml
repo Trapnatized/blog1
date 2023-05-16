@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog.html
+- name: Topics
+  link: /topics.html
+- name: Staff
+  link: /staff.html
+- name: About
+  link: /about.html
+#- name: Login
+#  link: /login.html
+
+
