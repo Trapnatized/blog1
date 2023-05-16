@@ -36,13 +36,17 @@ github_username:  Trapnatized
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   authors:
     output: true
   topics:
     output: true
-    
+  posts:
+    output: true
+
 defaults:
   - scope:
       path: ""
@@ -69,11 +73,6 @@ defaults:
     values:
       layout: "default"
 
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
