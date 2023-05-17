@@ -5,4 +5,4 @@ rbenv global 3.0.3
 
 gem install bundler jekyll
 bundle install
-jekyll build
+bundle exec jekyll build
